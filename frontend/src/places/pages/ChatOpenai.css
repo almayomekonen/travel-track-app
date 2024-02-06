@@ -1,0 +1,90 @@
+.chat-form {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background: white;
+}
+
+.chat-response {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.chat-message {
+  padding: 7px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  border-radius: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.assistant-message {
+  align-self: flex-start;
+  background-color: #ff0055;
+  color: white;
+}
+
+.user-guide-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 3px;
+  border-radius: 8px;
+  text-align: left;
+  color: floralwhite;
+}
+
+.user-guide-container p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.user-guide-container strong {
+  font-weight: bold;
+}
+
+.user-guide-container p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  .user-guide-container p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .chat-form {
+    order: 2;
+  }
+
+  .user-guide-container {
+    order: 1;
+    padding: 0;
+  }
+}
+
+.globe-emoji {
+  padding: 6px;
+}
+.newPlace-description {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+}
