@@ -88,7 +88,8 @@ exports.travelTrack = async (req, res, next) => {
   try {
     const userInput = `
   🌟 Explore Nearby Recommendations 🌟
-  Find me good hotels, restaurants, and places to visit, name of the founded area ${latitude},${longitude}`;
+   Find me good hotels, restaurants, and places to visit, 
+   name of the founded area,add some nice emojis ${latitude},${longitude}`;
 
     const chatResponse = await chatGPTConnection(userInput);
 
