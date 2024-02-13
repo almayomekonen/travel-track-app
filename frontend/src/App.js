@@ -18,6 +18,7 @@ import { useAuth } from './shared/hooks/auth-hook'
 import Home from './home/Home'
 import Feature from './home/Feature'
 import About from './home/About'
+import Contact from './home/Contact'
 
 const App = () => {
   const { token, login, logout, userId } = useAuth()
@@ -31,6 +32,7 @@ const App = () => {
           <Home />
           <Feature />
           <About />
+          <Contact />
         </Route>
         <Route path="/users" exact>
           <Users />
@@ -57,6 +59,7 @@ const App = () => {
           <Home />
           <Feature />
           <About />
+          <Contact />
         </Route>
         <Route path="/users" exact>
           <Users />

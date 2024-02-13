@@ -65,10 +65,11 @@ p {
 
 @media (max-width: 767px) {
   .process {
-    font-size: 12px;
-    padding: 35px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 13px;
     text-align: center;
-    width: 70%;
     box-sizing: border-box;
   }
 }
