@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 const HttpError = require('../models/http-error');
 const User = require('../models/user');
 
-const getUsers = async (req, res, next) => {
+exports.getUsers = async (req, res, next) => {
   let users;
   try {
     users = await User.find({}, '-password');
@@ -19,7 +19,7 @@ const getUsers = async (req, res, next) => {
   res.json({ users: users.map(user => user.toObject({ getters: true })) });
 };
 
-const signup = async (req, res, next) => {
+exports.signup = async (req, res, next) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return next(
@@ -97,7 +97,7 @@ const signup = async (req, res, next) => {
     .json({ userId: createdUser.id, email: createdUser.email, token: token });
 };
 
-const login = async (req, res, next) => {
+exports.login = async (req, res, next) => {
   const { email, password } = req.body;
 
   let existingUser;
@@ -160,7 +160,3 @@ const login = async (req, res, next) => {
     token: token
   });
 };
-
-exports.getUsers = getUsers;
-exports.signup = signup;
-exports.login = login;

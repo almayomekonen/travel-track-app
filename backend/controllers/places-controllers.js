@@ -5,8 +5,6 @@ const HttpError = require("../models/http-error");
 const getCoordsForAddress = require("../util/location");
 const Place = require("../models/place");
 const User = require("../models/user");
-const flatted = require("flatted");
-const { chatGPTConnection } = require("../util/ChatGpt");
 
 exports.getPlaceById = async (req, res, next) => {
   const placeId = req.params.pid;
@@ -61,45 +59,6 @@ exports.getPlacesByUserId = async (req, res, next) => {
   });
 };
 
-exports.buildTrack = async (req, res, next) => {
-  const userMessage = { role: "user", content: req.body.userInput };
-  const completionRequest = {
-    model: "gpt-4",
-    messages: [userMessage],
-    temperature: 0.7,
-  };
-
-  try {
-    const response = await chatGPTConnection(req.body.userInput);
-    const assistantMessage = response;
-
-    const flattenedResponse = flatted.stringify({ assistantMessage });
-    const parsedResponse = JSON.parse(flattenedResponse);
-
-    res.json(parsedResponse);
-  } catch (error) {
-    console.error("Error:", error);
-    res.status(500).json({ error: "Internal Server Error" });
-  }
-};
-
-exports.travelTrack = async (req, res, next) => {
-  const { latitude, longitude } = req.body;
-  try {
-    const userInput = `
-  🌟 Explore Nearby Recommendations 🌟
-   Find me good hotels, restaurants, and places to visit, 
-   name of the founded area,add some nice emojis ${latitude},${longitude}`;
-
-    const chatResponse = await chatGPTConnection(userInput);
-
-    res.json({ success: true, chatMessage: chatResponse });
-  } catch (error) {
-    console.error("Error handling travel track:", error);
-    res.status(500).json({ success: false, error: "Internal Server Error" });
-  }
-};
-
 exports.createPlace = async (req, res, next) => {
   const errors = validationResult(req);
 
@@ -110,8 +69,6 @@ exports.createPlace = async (req, res, next) => {
   }
 
   const { title, description, address } = req.body;
-
-  console.log(req.body);
 
   let coordinates;
   try {
@@ -144,8 +101,6 @@ exports.createPlace = async (req, res, next) => {
     const error = new HttpError("Could not find user for provided id.", 404);
     return next(error);
   }
-
-  console.log(user);
 
   try {
     const sess = await mongoose.startSession();
@@ -252,9 +207,6 @@ exports.deletePlace = async (req, res, next) => {
     return next(error);
   }
 
-  fs.unlink(imagePath, (err) => {
-    console.log(imagePath);
-  });
-
+  fs.unlink(imagePath, (err) => {});
   res.status(200).json({ message: "Deleted place." });
 };

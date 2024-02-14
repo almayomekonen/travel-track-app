@@ -4,5 +4,4 @@ async function getCoordsForAddress(address) {
     lng: -73.9871516
   };
 }
-
 module.exports = getCoordsForAddress;

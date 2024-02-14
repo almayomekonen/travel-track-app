@@ -4,6 +4,7 @@ const fileUpload = require("../middleware/file-upload");
 const checkAuth = require("../middleware/check-auth");
 
 const placesControllers = require("../controllers/places-controllers");
+const {travelTrack, buildTrack} = require('../util/ChatGpt')
 
 const routes = express.Router();
 
@@ -11,7 +12,7 @@ routes.get("/:pid", placesControllers.getPlaceById);
 
 routes.get("/user/:uid", placesControllers.getPlacesByUserId);
 
-routes.post("/travelTrack", placesControllers.travelTrack);
+routes.post("/travelTrack", travelTrack);
 
 routes.use(checkAuth);
 
@@ -26,7 +27,7 @@ routes.post(
   placesControllers.createPlace
 );
 
-routes.post("/build", placesControllers.buildTrack);
+routes.post("/build", buildTrack);
 
 routes.patch(
   "/:pid",
