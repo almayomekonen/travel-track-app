@@ -11,7 +11,6 @@
     margin-bottom: 16px;
   }
   
-  /* Customize list styles */
   ul {
     list-style-type: disc;
     margin-left: 20px;
@@ -22,7 +21,6 @@
     margin-bottom: 8px;
   }
   
-  /* Customize code block styles */
   code {
     background-color: #f3f3f3;
     padding: 4px 8px;
@@ -31,7 +29,6 @@
     font-size: 14px;
   }
   
-  /* Customize link styles */
   a {
     color: #ff0055;
     text-decoration: none;
