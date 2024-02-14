@@ -1,4 +1,5 @@
 <!-- Add custom styles to the README -->
+<!--
 <style>
   /* Customize heading styles */
   h1 {
@@ -43,6 +44,7 @@
     text-decoration: underline;
   }
 </style>
+-->
 
 <!-- BEGIN README CONTENT -->
 
