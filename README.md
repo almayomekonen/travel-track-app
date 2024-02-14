@@ -7,22 +7,23 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/traveltrack/traveltrack.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/traveltrack/traveltrack/alerts/)
 
 </div>
+      Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just another travel planning app; it's a cutting-edge platform that redefines the way you plan your journeys. Whether you're a seasoned globetrotter or a first-time traveler, TravelTrack is here to make your adventures unforgettable.
 
 <table border="0">
   <tr>
     <td align="center">
-      Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just another travel planning app; it's a cutting-edge platform that redefines the way you plan your journeys. Whether you're a seasoned globetrotter or a first-time traveler, TravelTrack is here to make your adventures unforgettable.
+Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just another travel planning app; it's a cutting-edge platform that redefines the way you plan your journeys. Whether you're a seasoned globetrotter or a first-time traveler, TravelTrack is here to make your adventures unforgettable.
     </td>
     <td align="center">
-      Your Custom Video
-      <!-- Replace 'YOUR_VIDEO_URL' with the direct URL to your video file -->
-      <video width="320" height="240" controls>
-        <source src="https://github.com/almayomekonen/travel-track-app/assets/112473346/e7a47179-dd61-4019-b1d6-ae75b589b916" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      Discover TravelTrack in action with our introductory video:
+      <!-- Replace 'YOUR_VIDEO_ID' with the ID of your YouTube video -->
+      <a href="https://youtu.be/h3n83j6XVLU">
+        <img src="http://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg" alt="YouTube thumbnail for TravelTrack" />
+      </a>
     </td>
   </tr>
 </table>
+
 
 
 
