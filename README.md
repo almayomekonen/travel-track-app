@@ -56,6 +56,7 @@ TravelTrack is hosted on Firebase, providing reliable and scalable solutions for
 | Authentication | Firebase authentication ensures secure user accounts and data management. |
 | AI Integration | Chat GPT API enables intelligent and interactive chat functionality for personalized travel assistance. |
 | Cloud Hosting | Deployed on Firebase and Heroku for reliable and scalable hosting solutions. |
+| AWS | Deployed on AWS Amazon for reliable and scalable hosting solutions. |
 
 
 ## How It Works
