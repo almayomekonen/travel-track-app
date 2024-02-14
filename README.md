@@ -18,7 +18,7 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
       Discover TravelTrack in action with our introductory video:
       <!-- Replace 'YOUR_VIDEO_ID' with the ID of your YouTube video -->
       <a href="https://youtu.be/h3n83j6XVLU">
-        <img src="http://img.youtube.com/vi/https://youtu.be/h3n83j6XVLU/0.jpg" alt="YouTube thumbnail for TravelTrack" />
+        <img src="http://img.youtube.com/vi//0.jpg" alt="YouTube thumbnail for TravelTrack" />
       </a>
     </td>
   </tr>
