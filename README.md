@@ -17,8 +17,7 @@
       Your Custom Video
       <!-- Replace 'YOUR_VIDEO_URL' with the direct URL to your video file -->
       <video width="320" height="240" controls>
-        <source src="![image](https://github.com/almayomekonen/travel-track-app/assets/112473346/cba8d8e1-9681-4ab5-9511-0f746120c480)
-" type="video/mp4">
+        <source src="![image](https://github.com/almayomekonen/travel-track-app/assets/112473346/cba8d8e1-9681-4ab5-9511-0f746120c480)" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
