@@ -16,7 +16,7 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
     </td>
     <td align="center">
       Discover TravelTrack in action with our introductory video: <br/>
-      click here 
+      click here  <br/>
            👇
       <!-- Replace 'YOUR_VIDEO_ID' with the ID of your YouTube video -->
       <a href="https://youtu.be/h3n83j6XVLU">
