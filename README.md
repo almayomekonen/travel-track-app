@@ -15,12 +15,12 @@
 Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just another travel planning app; it's a cutting-edge platform that redefines the way you plan your journeys. Whether you're a seasoned globetrotter or a first-time traveler, TravelTrack is here to make your adventures unforgettable.
     </td>
     <td align="center">
-      Discover TravelTrack in action with our introductory video: <br/>
+      Discover TravelTrack in action with our introductory video <br/>
       click here  <br/>
            👇
       <!-- Replace 'YOUR_VIDEO_ID' with the ID of your YouTube video -->
       <a href="https://youtu.be/h3n83j6XVLU">
-        <img width="500px" src="https://github.com/almayomekonen/travel-track-app/blob/master/preview-image.png" alt="YouTube thumbnail for TravelTrack" />
+        <img width="600px" src="https://github.com/almayomekonen/travel-track-app/blob/master/preview-image.png" alt="YouTube thumbnail for TravelTrack" />
       </a>
     </td>
   </tr>
