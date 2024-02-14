@@ -11,14 +11,13 @@
 <table border="0">
   <tr>
     <td align="center">
-Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just another travel planning app; it's a cutting-edge platform that redefines the way you plan your journeys. Whether you're a seasoned globetrotter or a first-time traveler, TravelTrack is here to make your adventures unforgettable.
+      Stargate is a data gateway deployed between client applications and a database. It's built with extensibility as a first-class citizen and makes it easy to use a database for any application workload by adding plugin support for new APIs, data types, and access methods.
     </td>
     <td align="center">
-      Discover TravelTrack in action with our introductory video:
-      <video width="320" height="240" controls>
-        <source src="YOUR_VIDEO_URL" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      YouTube video of Stargate
+      <a href="http://www.youtube.com/watch?v=2ltVf2EscmM">
+        <img src="http://img.youtube.com/vi/2ltVf2EscmM/0.jpg" alt="YouTube thumbmnail for Stargate" />
+      </a>
     </td>
   </tr>
 </table>
