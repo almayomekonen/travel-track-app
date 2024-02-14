@@ -1,7 +1,9 @@
+<!-- Add custom styles to the README -->
 <style>
+  /* Customize heading styles */
   h1 {
     font-size: 36px;
-    color: white;
+    color: #ff0055;
     margin-bottom: 20px;
   }
   
@@ -11,6 +13,7 @@
     margin-bottom: 16px;
   }
   
+  /* Customize list styles */
   ul {
     list-style-type: disc;
     margin-left: 20px;
@@ -21,6 +24,7 @@
     margin-bottom: 8px;
   }
   
+  /* Customize code block styles */
   code {
     background-color: #f3f3f3;
     padding: 4px 8px;
@@ -29,6 +33,7 @@
     font-size: 14px;
   }
   
+  /* Customize link styles */
   a {
     color: #ff0055;
     text-decoration: none;
@@ -38,6 +43,8 @@
     text-decoration: underline;
   }
 </style>
+
+<!-- BEGIN README CONTENT -->
 
 # TravelTrack
 
@@ -69,3 +76,5 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
 4. **Plan Your Trip**: Save your favorite places, create itineraries, and organize your travel plans effortlessly with TravelTrack.
 
 Start planning your next adventure with TravelTrack today and experience the future of travel planning. Happy travels!
+
+<!-- END README CONTENT -->
