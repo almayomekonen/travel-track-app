@@ -12,7 +12,7 @@
     <td align="center">
 Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just another travel planning app; it's a cutting-edge platform that redefines the way you plan your journeys. Whether you're a seasoned globetrotter or a first-time traveler, TravelTrack is here to make your adventures unforgettable.
     </td>
-    <td align="center">
+    <td width="50px" align="center">
       Discover TravelTrack in action with our introductory video <br/>
       click here  <br/>
            👇
