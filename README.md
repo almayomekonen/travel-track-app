@@ -11,7 +11,7 @@
 <table border="0">
   <tr>
     <td align="center">
-      Stargate is a data gateway deployed between client applications and a database. It's built with extensibility as a first-class citizen and makes it easy to use a database for any application workload by adding plugin support for new APIs, data types, and access methods.
+Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just another travel planning app; it's a cutting-edge platform that redefines the way you plan your journeys. Whether you're a seasoned globetrotter or a first-time traveler, TravelTrack is here to make your adventures unforgettable.
     </td>
     <td align="center">
       YouTube video of Stargate
