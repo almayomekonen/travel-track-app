@@ -1,9 +1,7 @@
-<!-- Add custom styles to the README -->
 <style>
-  /* Customize heading styles */
   h1 {
     font-size: 36px;
-    color: #ff0055;
+    color: white;
     margin-bottom: 20px;
   }
   
