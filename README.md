@@ -35,15 +35,17 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
 - **Secure User Authentication**: Rest easy knowing that your account and data are safeguarded with Firebase authentication. Your privacy and security are our utmost priorities.
 - **Scalable Hosting**: TravelTrack is hosted on Firebase, providing reliable and scalable solutions for all your travel planning needs. Say goodbye to interruptions and hello to seamless performance.
 
-## Technologies Utilized
+## Technologies Used
+| Technology | Description |
+| :--- | :--- |
+| Frontend | Built with React.js for a sleek and responsive user interface. |
+| Mapping | Leveraging Leaflet for interactive and dynamic map visualization. |
+| Backend | Powered by Node.js and Express.js for robust server-side functionality. |
+| Database | MongoDB stores user preferences and travel data securely. |
+| Authentication | Firebase authentication ensures secure user accounts and data management. |
+| AI Integration | Chat GPT API enables intelligent and interactive chat functionality for personalized travel assistance. |
+| Cloud Hosting | Deployed on Firebase and Heroku for reliable and scalable hosting solutions. |
 
-- **Frontend**: Crafted with React.js to deliver a sleek and responsive user interface.
-- **Mapping**: Harnessing the power of Leaflet for interactive and dynamic map visualization.
-- **Backend**: Empowered by Node.js and Express.js to ensure robust server-side functionality.
-- **Database**: Securely storing user preferences and travel data with MongoDB.
-- **Authentication**: Firebase authentication guarantees secure user accounts and data management.
-- **AI Integration**: Leveraging the Chat GPT API for intelligent and interactive chat functionality, providing personalized travel assistance.
-- **Cloud Hosting**: Deployed on Firebase and Heroku for reliable and scalable hosting solutions.
 
 ## How It Works
 
