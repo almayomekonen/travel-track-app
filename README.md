@@ -15,12 +15,14 @@
     </td>
     <td align="center">
       Discover TravelTrack in action with our introductory video:
-      <a href="http://www.youtube.com/watch?v=YOUR_VIDEO_ID">
-        <img src="http://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg" alt="YouTube thumbnail for TravelTrack" />
-      </a>
+      <video width="320" height="240" controls>
+        <source src="YOUR_VIDEO_URL" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </td>
   </tr>
 </table>
+
 
 ## Features
 
