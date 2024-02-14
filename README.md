@@ -11,16 +11,19 @@
 <table border="0">
   <tr>
     <td align="center">
-Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just another travel planning app; it's a cutting-edge platform that redefines the way you plan your journeys. Whether you're a seasoned globetrotter or a first-time traveler, TravelTrack is here to make your adventures unforgettable.
+      Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just another travel planning app; it's a cutting-edge platform that redefines the way you plan your journeys. Whether you're a seasoned globetrotter or a first-time traveler, TravelTrack is here to make your adventures unforgettable.
     </td>
     <td align="center">
-      YouTube video of Stargate
-      <a href="http://www.youtube.com/watch?v=2ltVf2EscmM">
-        <img src="http://img.youtube.com/vi/2ltVf2EscmM/0.jpg" alt="YouTube thumbmnail for Stargate" />
-      </a>
+      Your Custom Video
+      <!-- Replace 'YOUR_VIDEO_URL' with the direct URL to your video file -->
+      <video width="320" height="240" controls>
+        <source src="YOUR_VIDEO_URL" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </td>
   </tr>
 </table>
+
 
 
 ## Features
