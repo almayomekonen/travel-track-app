@@ -28,13 +28,22 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
 
 
 ## Features
-| Feature | Description |
-| :--- | :--- |
-| **Interactive Map** | Explore destinations effortlessly using our dynamic map feature powered by Leaflet. Simply click on any location to kickstart your next journey. |
-| **Personalized Recommendations** | Receive tailored suggestions for accommodations, attractions, dining spots, and more based on your unique preferences and interests. Our sophisticated algorithms ensure every recommendation aligns with your travel style. |
-| **AI-Powered Chat Assistant** | Need guidance on where to go or what to do? Engage in real-time conversations with our AI assistant, fueled by the Chat GPT API, to access personalized travel advice, tips, and recommendations. |
-| **Secure User Authentication** | Rest easy knowing that your account and data are safeguarded with Firebase authentication. Your privacy and security are our utmost priorities. |
-| **Scalable Hosting** | TravelTrack is hosted on Firebase, providing reliable and scalable solutions for all your travel planning needs. Say goodbye to interruptions and hello to seamless performance. |
+
+### Interactive Map
+Explore destinations effortlessly using our dynamic map feature powered by Leaflet. Simply click on any location to kickstart your next journey.
+
+### Personalized Recommendations
+Receive tailored suggestions for accommodations, attractions, dining spots, and more based on your unique preferences and interests. Our sophisticated algorithms ensure every recommendation aligns with your travel style.
+
+### AI-Powered Chat Assistant
+Need guidance on where to go or what to do? Engage in real-time conversations with our AI assistant, fueled by the Chat GPT API, to access personalized travel advice, tips, and recommendations.
+
+### Secure User Authentication
+Rest easy knowing that your account and data are safeguarded with Firebase authentication. Your privacy and security are our utmost priorities.
+
+### Scalable Hosting
+TravelTrack is hosted on Firebase, providing reliable and scalable solutions for all your travel planning needs. Say goodbye to interruptions and hello to seamless performance.
+
 
 
 ## Technologies Used
