@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useHttpClient } from '../../shared/hooks/http-hook'
 import Input from '../../shared/components/FormElements/Input'
 import Button from '../../shared/components/FormElements/Button'
@@ -21,14 +21,18 @@ const OpenAIChatForm = (props) => {
   const { token } = useAuth()
 
   useEffect(() => {
+    let isMounted = true
+
     const getPosition = () => {
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
           (position) => {
-            setLocation({
-              latitude: position.coords.latitude,
-              longitude: position.coords.longitude,
-            })
+            if (isMounted) {
+              setLocation({
+                latitude: position.coords.latitude,
+                longitude: position.coords.longitude,
+              })
+            }
           },
           (error) => {
             console.error(error.message)
@@ -38,6 +42,10 @@ const OpenAIChatForm = (props) => {
     }
 
     getPosition()
+
+    return () => {
+      isMounted = false
+    }
   }, [])
 
   const submitChat = async () => {
@@ -74,7 +82,9 @@ const OpenAIChatForm = (props) => {
       ])
 
       setAssistantMessage(assistantMessage)
-    } catch (error) {}
+    } catch (error) {
+      console.error(error)
+    }
   }
 
   const generateTravelTrack = async () => {
@@ -92,7 +102,9 @@ const OpenAIChatForm = (props) => {
       setMapChatResponse(response.chatMessage || 'No chat response')
 
       setShowMap(false)
-    } catch (error) {}
+    } catch (error) {
+      console.error(error)
+    }
   }
 
   const openMapHandler = () => setShowMap(true)

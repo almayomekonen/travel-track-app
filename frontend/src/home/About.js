@@ -4,7 +4,7 @@ import Button from '../shared/components/FormElements/Button'
 import { Link } from 'react-router-dom'
 import { AuthContext } from '../shared/context/auth-context'
 import { useContext } from 'react'
-import './Home.css'
+import './About.css'
 const About = () => {
   const auth = useContext(AuthContext)
   return (
