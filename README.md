@@ -17,7 +17,7 @@
       Your Custom Video
       <!-- Replace 'YOUR_VIDEO_URL' with the direct URL to your video file -->
       <video width="320" height="240" controls>
-        <source src="YOUR_VIDEO_URL" type="video/mp4">
+        <source src="304837440-e7a47179-dd61-4019-b1d6-ae75b589b916.mov" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
