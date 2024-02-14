@@ -17,7 +17,7 @@
       Your Custom Video
       <!-- Replace 'YOUR_VIDEO_URL' with the direct URL to your video file -->
       <video width="320" height="240" controls>
-        <source src="https://github.com/almayomekonen/travel-track-app/issues/3#issue-2134928783" type="video/mp4">
+        <source src="https://private-user-images.githubusercontent.com/112473346/304837440-e7a47179-dd61-4019-b1d6-ae75b589b916.mov?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc5MzU3MDYsIm5iZiI6MTcwNzkzNTQwNiwicGF0aCI6Ii8xMTI0NzMzNDYvMzA0ODM3NDQwLWU3YTQ3MTc5LWRkNjEtNDAxOS1iMWQ2LWFlNzViNTg5YjkxNi5tb3Y_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxNFQxODMwMDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYzAyMGNkOGRhMWVjMTFhZjZmZTYwOGVhODNkYjVmNmZlOGRlMTA2NzVjMjQzZTYzODA1ZjBkOTJmNmMzY2ZkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.4py_bdVN1ivTMh-Myca3PtoXKCC64UnpCNgNuafRW-E" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
