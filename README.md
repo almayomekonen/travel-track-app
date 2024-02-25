@@ -60,9 +60,9 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
 
 
 ## Required Dependencies!
-1. create nodemon.json file in the backend folder
+1. create "nodemon.json" file in the backend folder
 2. inside the file add this object
-   {
+   "{
     "env": {
       "DB_USER": "almayo",
       "DB_PASSWORD": "7Io7qZCy4UCs4jpj",
@@ -70,9 +70,9 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
       "JWT_KEY": "supersecret_dont_share",
       "CHAT_GPT_KEY": "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"
     }
-  }
-4. run npm install in the backend/frontend
-5. run npm start in the backend/frontend
+  }"
+4. run "npm install" in the backend/frontend
+5. run "npm start" in the backend/frontend
 
 Embark on your next adventure with TravelTrack today and embrace the future of travel planning. Bon voyage!
 
