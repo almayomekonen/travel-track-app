@@ -11,6 +11,7 @@ const Map = (props) => {
   const [processDone, setProcessDone] = useState(false)
   const { token } = useAuth()
   const mapRef = useRef(null)
+  
   useEffect(() => {
     const getPosition = () => {
       if (navigator.geolocation) {
