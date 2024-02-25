@@ -62,7 +62,7 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
 ## Required Dependencies!
 1. create nodemon.json file in the backend folder
 2. inside the file add this object
-3. {
+   {
     "env": {
       "DB_USER": "almayo",
       "DB_PASSWORD": "7Io7qZCy4UCs4jpj",
