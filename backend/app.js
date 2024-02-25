@@ -44,7 +44,7 @@ mongoose
     `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.26zhx4l.mongodb.net/${process.env.DB_NAME}`
   )
   .then((result) => {
-    app.listen(5000);
+    app.listen(4000);
   })
   .catch((err) => {
     console.log(err);
