@@ -58,5 +58,21 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
 3. **Chat with AI**: Engage in conversation with our AI assistant to access real-time travel advice, tips, and recommendations.
 4. **Plan Your Trip**: Seamlessly save your favorite places, create itineraries, and organize your travel plans with TravelTrack.
 
+
+## Required Dependencies!
+1. create nodemon.json file in the backend folder.
+2. inside the file add these environment variables
+   {
+    "env": {
+      "DB_USER": "almayo",
+      "DB_PASSWORD": "7Io7qZCy4UCs4jpj",
+      "DB_NAME": "mern",
+      "JWT_KEY": "supersecret_dont_share",
+      "CHAT_GPT_KEY": "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"
+    }
+  }
+ 3.run npm install in the backend/frontend
+ 4.run npm start in the backend/frontend
+
 Embark on your next adventure with TravelTrack today and embrace the future of travel planning. Bon voyage!
 
