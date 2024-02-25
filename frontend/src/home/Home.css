@@ -168,16 +168,6 @@ em {
   }
 }
 
-#presentaion {
-  padding-top: 30px;
-  width: 100%;
-  height: 768px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-}
-
 .pr-heading {
   text-align: center;
   font-family: 'Lato';
@@ -203,29 +193,6 @@ em {
   margin: 0px;
   letter-spacing: 2px;
   color: #ffffff;
-}
-.pr-btns {
-  display: flex;
-  margin-top: 40px;
-  margin-left: 35%;
-}
-.pr-btn {
-  width: 160px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.4rem;
-  background-color: #ff1414;
-  box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
-  border-radius: 5px;
-  color: #ffffff;
-}
-.pr-btn:hover {
-  background-color: transparent;
-  transition: all ease 0.5s;
-  color: #ffffff;
-  border: 2px solid #ff1414;
 }
 
 @media (max-width: 1190px) {
