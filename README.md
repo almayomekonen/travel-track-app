@@ -17,7 +17,7 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
       click here  <br/>
            👇
       <!-- Replace 'YOUR_VIDEO_ID' with the ID of your YouTube video -->
-      <a href="https://youtu.be/h3n83j6XVLU">
+      <a href="https://youtu.be/aJGfwf1KjRg">
         <img width="500px" src="https://github.com/almayomekonen/travel-track-app/blob/master/preview-image.png" alt="YouTube thumbnail for TravelTrack" />
       </a>
     </td>
