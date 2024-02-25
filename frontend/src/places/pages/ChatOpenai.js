@@ -56,7 +56,7 @@ const OpenAIChatForm = (props) => {
       }
 
       const response = await sendRequest(
-        'http://localhost:5000/api/places/build',
+        'http://localhost:4000/api/places/build',
         'POST',
         JSON.stringify({ userInput, location }),
         {
@@ -90,7 +90,7 @@ const OpenAIChatForm = (props) => {
   const generateTravelTrack = async () => {
     try {
       const response = await sendRequest(
-        'http://localhost:5000/api/places/travelTrack',
+        'http://localhost:4000/api/places/travelTrack',
         'POST',
         JSON.stringify({ userInput }),
         {

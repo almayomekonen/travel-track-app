@@ -40,7 +40,7 @@ const Map = (props) => {
           setIsLoading(true)
           try {
             const response = await axios.post(
-              'http://localhost:5000/api/places/travelTrack',
+              'http://localhost:4000/api/places/travelTrack',
               {
                 latitude: lat,
                 longitude: lng,
