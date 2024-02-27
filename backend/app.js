@@ -31,13 +31,13 @@ app.use((error, req, res, next) => {
       console.log(err);
     });
   }
-
   if (res.headerSent) {
     return next(error);
   }
-  res.status(error.code || 500);
-  res.json({ message: error.message || "An unknown error occurred!" });
+  const statusCode = error.code || 500;
+  res.status(statusCode).json({ message: error.message || "An unknown error occurred!" });
 });
+
 
 mongoose
   .connect(
