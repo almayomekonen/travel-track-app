@@ -16,7 +16,6 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
       Discover TravelTrack in action with our introductory video <br/>
       click here  <br/>
            👇
-      <!-- Replace 'YOUR_VIDEO_ID' with the ID of your YouTube video -->
       <a href="https://youtu.be/aJGfwf1KjRg">
         <img width="500px" src="https://github.com/almayomekonen/travel-track-app/blob/master/preview-image.png" alt="YouTube thumbnail for TravelTrack" />
       </a>
@@ -24,32 +23,28 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
   </tr>
 </table>
 
-
-
 ## Features
-| Feature | Description |
-| :--- | :--- |
-| **Interactive Map** | Explore destinations effortlessly using our dynamic map feature powered by Leaflet. Simply click on any location to kickstart your next journey. |
+
+| Feature                          | Description                                                                                                                                                                                                                  |
+| :------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Interactive Map**              | Explore destinations effortlessly using our dynamic map feature powered by Leaflet. Simply click on any location to kickstart your next journey.                                                                             |
 | **Personalized Recommendations** | Receive tailored suggestions for accommodations, attractions, dining spots, and more based on your unique preferences and interests. Our sophisticated algorithms ensure every recommendation aligns with your travel style. |
-| **AI-Powered Chat Assistant** | Need guidance on where to go or what to do? Engage in real-time conversations with our AI assistant, fueled by the Chat GPT API, to access personalized travel advice, tips, and recommendations. |
-| **Secure User Authentication** | Rest easy knowing that your account and data are safeguarded with Firebase authentication. Your privacy and security are our utmost priorities. |
-| **Scalable Hosting** | TravelTrack is hosted on Firebase, providing reliable and scalable solutions for all your travel planning needs. Say goodbye to interruptions and hello to seamless performance. |
-
-
-
+| **AI-Powered Chat Assistant**    | Need guidance on where to go or what to do? Engage in real-time conversations with our AI assistant, fueled by the Chat GPT API, to access personalized travel advice, tips, and recommendations.                            |
+| **Secure User Authentication**   | Rest easy knowing that your account and data are safeguarded with Firebase authentication. Your privacy and security are our utmost priorities.                                                                              |
+| **Scalable Hosting**             | TravelTrack is hosted on Firebase, providing reliable and scalable solutions for all your travel planning needs. Say goodbye to interruptions and hello to seamless performance.                                             |
 
 ## Technologies Used
-| Technology | Description |
-| :--- | :--- |
-| Frontend | Built with React.js for a sleek and responsive user interface. |
-| Mapping | Leveraging Leaflet for interactive and dynamic map visualization. |
-| Backend | Powered by Node.js and Express.js for robust server-side functionality. |
-| Database | MongoDB stores user preferences and travel data securely. |
-| Authentication | Firebase authentication ensures secure user accounts and data management. |
-| AI Integration | Chat GPT API enables intelligent and interactive chat functionality for personalized travel assistance. |
-| Cloud Hosting | Deployed on Firebase and Heroku for reliable and scalable hosting solutions. |
-| AWS | Deployed on AWS Amazon for reliable and scalable hosting solutions. |
 
+| Technology     | Description                                                                                             |
+| :------------- | :------------------------------------------------------------------------------------------------------ |
+| Frontend       | Built with React.js for a sleek and responsive user interface.                                          |
+| Mapping        | Leveraging Leaflet for interactive and dynamic map visualization.                                       |
+| Backend        | Powered by Node.js and Express.js for robust server-side functionality.                                 |
+| Database       | MongoDB stores user preferences and travel data securely.                                               |
+| Authentication | Firebase authentication ensures secure user accounts and data management.                               |
+| AI Integration | Chat GPT API enables intelligent and interactive chat functionality for personalized travel assistance. |
+| Cloud Hosting  | Deployed on Firebase and Heroku for reliable and scalable hosting solutions.                            |
+| AWS            | Deployed on AWS Amazon for reliable and scalable hosting solutions.                                     |
 
 ## How It Works
 
@@ -58,21 +53,19 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
 3. **Chat with AI**: Engage in conversation with our AI assistant to access real-time travel advice, tips, and recommendations.
 4. **Plan Your Trip**: Seamlessly save your favorite places, create itineraries, and organize your travel plans with TravelTrack.
 
-
 ## Required Dependencies!
+
 1. create "nodemon.json" file in the backend folder
 2. inside the file add this object
-   "{
-    "env": {
-      "DB_USER": "almayo",
-      "DB_PASSWORD": "7Io7qZCy4UCs4jpj",
-      "DB_NAME": "mern",
-      "JWT_KEY": "supersecret_dont_share",
-      "CHAT_GPT_KEY": "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"
-    }
-  }"
-4. run "npm install" in the backend/frontend
-5. run "npm start" in the backend/frontend
+   {
+   "env": {
+   "DB_USER": "almayo",
+   "DB_PASSWORD": "7Io7qZCy4UCs4jpj",
+   "DB_NAME": "mern",
+   "JWT_KEY": "supersecret_dont_share",
+   }
+   }
+3. run "npm install" in the backend/frontend
+4. run "npm start" in the backend/frontend
 
 Embark on your next adventure with TravelTrack today and embrace the future of travel planning. Bon voyage!
-
