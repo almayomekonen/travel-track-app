@@ -35,9 +35,10 @@ app.use((error, req, res, next) => {
     return next(error);
   }
   const statusCode = error.code || 500;
-  res.status(statusCode).json({ message: error.message || "An unknown error occurred!" });
+  res
+    .status(statusCode)
+    .json({ message: error.message || "An unknown error occurred!" });
 });
-
 
 mongoose
   .connect(
