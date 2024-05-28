@@ -56,6 +56,7 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
 ## Required Dependencies!
 
 1. create "nodemon.json" file in the backend folder
+
 2. inside the file add this object
    {
    "env": {
@@ -63,9 +64,13 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
    "DB_PASSWORD": "your-password",
    "DB_NAME": "your-db-name",
    "JWT_KEY": "your jwt secret key",
-   }
-   }
+   "CHAT_GPT_KEY":"your chat-gpt-key"
+    }
+  }
+if you dont have chat-gpt-key, create one here => https://platform.openai.com/settings/profile?tab=api-keys
+
 3. run "npm install" in the backend/frontend
+
 4. run "npm start" in the backend/frontend
 
 Embark on your next adventure with TravelTrack today and embrace the future of travel planning. Bon voyage!
