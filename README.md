@@ -59,10 +59,10 @@ Welcome to TravelTrack - Your Ultimate Travel Companion! TravelTrack is not just
 2. inside the file add this object
    {
    "env": {
-   "DB_USER": "almayo",
-   "DB_PASSWORD": "7Io7qZCy4UCs4jpj",
-   "DB_NAME": "mern",
-   "JWT_KEY": "supersecret_dont_share",
+   "DB_USER": "your-name",
+   "DB_PASSWORD": "your-password",
+   "DB_NAME": "your-db-name",
+   "JWT_KEY": "your jwt secret key",
    }
    }
 3. run "npm install" in the backend/frontend
