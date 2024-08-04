@@ -48,7 +48,6 @@ exports.travelTrack = async (req, res, next) => {
     Find me good hotels, restaurants, and places to visit in detail.
     Please include the name of the area, and add some nice emojis.
     Coordinates: ${latitude},${longitude}`;
-    
 
     const chatResponse = await chatGPTConnection(userInput);
 
