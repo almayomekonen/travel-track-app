@@ -1,29 +1,29 @@
-import React from 'react'
+import React from "react";
 import {
   BrowserRouter as Router,
   Route,
   Redirect,
   Switch,
-} from 'react-router-dom'
+} from "react-router-dom";
 
-import Users from './user/pages/Users'
-import NewPlace from './places/pages/NewPlace'
-import UserPlaces from './places/pages/UserPlaces'
-import UpdatePlace from './places/pages/UpdatePlace'
-import Auth from './user/pages/Auth'
-import MainNavigation from './shared/components/Navigation/MainNavigation'
-import { AuthContext } from './shared/context/auth-context'
-import OpenAIChatForm from './places/pages/ChatOpenai'
-import { useAuth } from './shared/hooks/auth-hook'
-import Home from './home/Home'
-import Feature from './home/Feature'
-import About from './home/About'
-import Contact from './home/Contact'
+import Users from "./user/pages/Users";
+import NewPlace from "./places/pages/NewPlace";
+import UserPlaces from "./places/pages/UserPlaces";
+import UpdatePlace from "./places/pages/UpdatePlace";
+import Auth from "./user/pages/Auth";
+import MainNavigation from "./shared/components/Navigation/MainNavigation";
+import { AuthContext } from "./shared/context/auth-context";
+import OpenAIChatForm from "./places/pages/ChatOpenai";
+import { useAuth } from "./shared/hooks/auth-hook";
+import Home from "./home/Home";
+import Feature from "./home/Feature";
+import About from "./home/About";
+import Contact from "./home/Contact";
 
 const App = () => {
-  const { token, login, logout, userId } = useAuth()
+  const { token, login, logout, userId } = useAuth();
 
-  let routes
+  let routes;
 
   if (token) {
     routes = (
@@ -51,7 +51,7 @@ const App = () => {
         </Route>
         <Redirect to="/" />
       </Switch>
-    )
+    );
   } else {
     routes = (
       <Switch>
@@ -72,7 +72,7 @@ const App = () => {
         </Route>
         <Redirect to="/auth" />
       </Switch>
-    )
+    );
   }
 
   return (
@@ -90,7 +90,7 @@ const App = () => {
         <main>{routes}</main>
       </Router>
     </AuthContext.Provider>
-  )
-}
+  );
+};
 
-export default App
+export default App;

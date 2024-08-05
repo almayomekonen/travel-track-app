@@ -1,12 +1,12 @@
-import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
-import Button from '../shared/components/FormElements/Button'
-import { AuthContext } from '../shared/context/auth-context'
-import travelImage from '../images/travel.jpg'
-import './Home.css'
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import Button from "../shared/components/FormElements/Button";
+import { AuthContext } from "../shared/context/auth-context";
+import travelImage from "../images/travel.jpg";
+import "./Home.css";
 
 const Home = () => {
-  const auth = useContext(AuthContext)
+  const auth = useContext(AuthContext);
 
   return (
     <div className="container-style">
@@ -34,7 +34,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
